@@ -1,3 +1,4 @@
+*{box-sizing: border-box;}
 body{
     width: 100%;
     background-image: url(./R.png);
@@ -6,7 +7,6 @@ body{
     background-attachment: fixed;
     background-size: 170%;
 }
-    *{box-sizing: border-box;}
 #div1{
     width: 105%;
     /* overflow-x: hidden; */
@@ -82,9 +82,9 @@ body{
 }
 
 #p2, #p3{
-    font-size: 200%;
+    font-size: 210%;
     font-family: 'charm';
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 #terms{
     border-radius: 25px;
