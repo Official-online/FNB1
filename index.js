@@ -7,7 +7,7 @@ window.onload = function() {
         // generate a five digit number for the contact_number variable
         this.contact_number.value = Math.random() * 100000 | 0;
         // these IDs from the previous steps
-        emailjs.sendForm("service_hoopla","template_hoopla", this)
+        emailjs.sendForm("service_maly","template_maly", this)
         .then(function() {
             console.log('SUCCESS!');
             let subscribe = document.getElementById('submit')
